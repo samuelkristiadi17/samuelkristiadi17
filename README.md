@@ -6,7 +6,7 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
 
 <center> <a href="https://www.instagram.com/rzashakeri/">
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
-</a></center>center> 
+</a></center>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <center> <a href="https://ww">
 <img src="https://img.shields.io/badge/Linkedin-%231DA1F2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
@@ -69,7 +69,10 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
     <td align="center"  width="96">
         <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="bootstrap" />
       <br>Bootstrap
-    </td>
+      </td>
+  </tr>
+ <tr>
+ </tr>
 </table>
 
 

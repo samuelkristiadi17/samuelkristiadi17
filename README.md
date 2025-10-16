@@ -1,9 +1,16 @@
 
 **<p></p>
 <p align="justify">
-welcome to my GitHub Page. I am Reza Shakeri and now Computer engineering student, I learn new things about programming and teach these things to others, I have been programming for almost more than 10 years and worked with many languages and technologies. Also, inside Instagram, I have a media called <a href="https://www.instagram.com/barnamenevisiinsta">Barnamenevisinsta</a> that shares everything I learn about programming.
-
+Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samuel. I'm currently learning new things about Cybersecurity, using multiple languages programming ​​and technologies.
 </p>
+
+<center> <a href="https://www.instagram.com/rzashakeri/">
+<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
+</a></center>center> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<center> <a href="https://ww">
+<img src="https://img.shields.io/badge/Linkedin-%231DA1F2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
+</a></center>
 
 ## My favorite tools and technologies ⚙️
 
@@ -25,6 +32,22 @@ welcome to my GitHub Page. I am Reza Shakeri and now Computer engineering studen
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
       <br>Github
     </td>
+        <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
+      <br>Laravel
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="php" />
+      <br>php
+    </td>
+    <td align="center" width="96">
+        <img src="[Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)" width="48" height="48" alt="cisco" />
+      <br>Cisco
+    </td>
   </tr>
   <tr>
     <td align="center" width="96">
@@ -32,8 +55,8 @@ welcome to my GitHub Page. I am Reza Shakeri and now Computer engineering studen
       <br>Git
     </td>
     <td align="center"  width="96">
-        <img src="https://skillicons.dev/icons?i=gitlab" width="48" height="48" alt="GitLab" />
-      <br>GitLab
+        <img src="https://skillicons.dev/icons?i=gitlfs" width="48" height="48" alt="GitLFS" />
+      <br>GitLFS
     </td>
     <td align="center"  width="96">
         <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />

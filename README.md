@@ -1,5 +1,9 @@
-
-**<p></p>
+<div align="center">
+    <img width=300 src="./assets/main.gif"/>    
+    <br/>
+    <br/>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Itim&size=40&duration=2000&pause=3000&color=E0DFF1&center=true&repeat=false&width=600&height=60&lines=Greetings%2C+wanderer!+I'm+Samuel!" alt="Typing SVG" /></a>
+</div>
 <p align="justify">
 Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samuel. I'm currently learning new things about Cybersecurity, using multiple languages programming ​​and technologies.
 </p>
@@ -32,6 +36,10 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
       <br>Github
     </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" height="65" />
+      <br>C++
+    </td>
         <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
       <br>Linux
@@ -61,6 +69,10 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
     <td align="center"  width="96">
         <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="bootstrap" />
       <br>Bootstrap
+      </td>
+    <td align="center"  width="96">
+        <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="java" />
+      <br>Java
       </td>
   </tr>
  <tr>

@@ -77,8 +77,10 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
         <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="java" />
       <br>Java
     </td>
-  </tr>
-</table>
+    </tr> 
+        <tr> 
+        </tr>
+    </table>
 
 </div>
 

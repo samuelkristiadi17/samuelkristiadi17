@@ -19,7 +19,9 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
 
 ## My favorite tools and technologies ⚙️
 
-> Tools and technologies that I have worked with and am interested in
+<h3 align="center">Tools and technologies that I have worked with and am interested in</h3>
+
+<div align="center">
 
 <table>
   <tr>
@@ -33,7 +35,7 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
         <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
       <br>Javascript
     </td>
-       <td align="center" width="96">
+    <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
       <br>Github
     </td>
@@ -41,7 +43,7 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
         <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" height="65" />
       <br>C++
     </td>
-        <td align="center" width="96">
+    <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
       <br>Linux
     </td>
@@ -55,11 +57,11 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
         <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
     </td>
-     <td align="center" width="96">
+    <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="php" />
       <br>php
     </td>
-    <td align="center"  width="96">
+    <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
       <br>HTML
     </td>
@@ -67,19 +69,18 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
         <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="css" />
       <br>CSS
     </td>
-    <td align="center"  width="96">
+    <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="bootstrap" />
       <br>Bootstrap
-      </td>
-    <td align="center"  width="96">
+    </td>
+    <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="java" />
       <br>Java
-      </td>
+    </td>
   </tr>
- <tr>
- </tr>
 </table>
 
+</div>
 
 
 <picture>

@@ -6,9 +6,9 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
 
 <center> <a href="https://www.instagram.com/rzashakeri/">
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
-</a></center>
+</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<center> <a href="https://ww">
+<a href="https://ww">
 <img src="https://img.shields.io/badge/Linkedin-%231DA1F2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
 </a></center>
 

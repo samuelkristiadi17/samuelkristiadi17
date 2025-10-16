@@ -2,7 +2,8 @@
     <img width=300 src="./assets1/main.gif"/>    
     <br/>
     <br/>
-    
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Itim&size=40&duration=2000&pause=3000&color=E0DFF1&center=true&repeat=false&width=600&height=60&lines=Greetings%2C+wanderer!+I'm+Samuel!" alt="Typing SVG" /></a>
+</div>
 </div>
 <p align="justify">
 Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samuel. I'm currently learning new things about Cybersecurity, using multiple languages programming ​​and technologies.

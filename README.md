@@ -81,6 +81,10 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
         <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" alt="java"/>
         <br>Java
     </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" alt="mysql"/>
+        <br>mysql
+    </td>
     </tr> 
         <tr> 
         </tr>

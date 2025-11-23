@@ -40,6 +40,10 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
       <br>Github
     </td>
     <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" alt="ts" />
+        <br>Ts
+    </td>
+    <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" height="65" />
       <br>C++
     </td>
@@ -74,8 +78,8 @@ Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samu
       <br>Bootstrap
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="java" />
-      <br>Java
+        <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" alt="java"/>
+        <br>Java
     </td>
     </tr> 
         <tr> 

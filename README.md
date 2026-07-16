@@ -1,37 +1,35 @@
 <p align="center">
   <picture>
     <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/heroagent-console-v5-mobile-light.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v5-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v5-light.svg">
-    <img src="./assets1/github.png" alt="Samuel Kristiadi Siburian - Cybersecurity and Digital Forensics" width="100%">
+    <img src="./assets1/github.jpeg" alt="Samuel Kristiadi Siburian - Full Stack and Digital Forensic" width="100%">
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/samuelkristiadi17"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-samuelkristiadi17-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/wildanniam"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-wildanniam-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <div align="center">
-    <img width="300" src="./assets/hero/main.gif"/>    
+    <img width=300 src="./assets/hero/main.gif"/>    
     <br/>
     <br/>
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Itim&size=40&duration=2000&pause=3000&color=E0DFF1&center=true&repeat=false&width=600&height=60&lines=Greetings%2C+wanderer!+I'm+Samuel!" alt="Typing SVG" /></a>
 </div>
-
+</div>
 <p align="justify">
-Welcome to my GitHub page. I'm Samuel, a cybersecurity and digital forensics student. I'm currently learning new things about Network Security, Incident Response, and using multiple programming languages ​​and technologies to build secure environments.
+Welcome to my GitHub page. I'm a student at President University Pekanbaru, Samuel. I'm currently learning new things about Cybersecurity, using multiple languages programming ​​and technologies.
 </p>
 
-<center> 
-<a href="https://www.instagram.com/muel_burian/">
+<center> <a href="https://https://www.instagram.com/muel_burian/">
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/samuel-kristiadi-siburian-a3353332b/">
-<img src="https://img.shields.io/badge/Linkedin-%230A66C2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
-</a>
-</center>
+<a href="https://https://www.linkedin.com/in/samuel-kristiadi-siburian-a3353332b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/">
+<img src="https://img.shields.io/badge/Linkedin-%231DA1F2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
+</a></center>
 
 ## My favorite tools and technologies ⚙️
 
@@ -57,7 +55,7 @@ Welcome to my GitHub page. I'm Samuel, a cybersecurity and digital forensics stu
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" alt="ts" />
-        <br>TS
+        <br>Ts
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" height="65" />
@@ -79,7 +77,7 @@ Welcome to my GitHub page. I'm Samuel, a cybersecurity and digital forensics stu
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="php" />
-      <br>PHP
+      <br>php
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
@@ -99,17 +97,18 @@ Welcome to my GitHub page. I'm Samuel, a cybersecurity and digital forensics stu
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" alt="mysql"/>
-        <br>MySQL
+        <br>mysql
     </td>
-  </tr> 
-</table>
+    </tr> 
+        <tr> 
+        </tr>
+    </table>
 
 </div>
 
-<br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuelkristiadi17/samuelkristiadi17/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samuelkristiadi17/samuelkristiadi17/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/samuelkristiadi17/samuelkristiadi17/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>

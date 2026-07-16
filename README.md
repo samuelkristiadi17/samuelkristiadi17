@@ -1,9 +1,9 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets1/agent-console-v5-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets1/agent-console-v5-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets1/agent-console-v5-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets1/agent-console-v5-light.svg">
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/heroagent-console-v5-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v5-light.svg">
     <img src="./assets1/github.png" alt="Samuel Kristiadi Siburian - Cybersecurity and Digital Forensics" width="100%">
   </picture>
 </p>
@@ -13,7 +13,7 @@
 </p>
 
 <div align="center">
-    <img width="300" src="./assets1/main.gif"/>    
+    <img width="300" src="./assets/main.gif"/>    
     <br/>
     <br/>
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Itim&size=40&duration=2000&pause=3000&color=E0DFF1&center=true&repeat=false&width=600&height=60&lines=Greetings%2C+wanderer!+I'm+Samuel!" alt="Typing SVG" /></a>

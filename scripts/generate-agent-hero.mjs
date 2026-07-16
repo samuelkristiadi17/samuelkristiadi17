@@ -8,37 +8,38 @@ import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
 const scriptDirectory = fileURLToPath(new URL(".", import.meta.url));
-const outputDirectory = resolve(scriptDirectory, "../assets/hero");
+const outputDirectory = resolve(scriptDirectory, "../assets");
 
+// Mengatur filter pemrosesan gambar (menghapus parameter crop bawaan agar sesuai ukuran foto normal)
 const portraitFilter = [
-  "crop=1700:1900:800:1950",
   "format=gray",
-  "eq=contrast=1.18:brightness=0.04:gamma=0.96",
+  "eq=contrast=1.2:brightness=0.05:gamma=0.95",
   "unsharp=3:3:0.35"
 ].join(",");
 
+// Menyesuaikan data bio terminal dengan data pribadimu
 const profileLines = [
-  { type: "header", value: "wildan@agentlab" },
-  { type: "row", key: "Subject", value: "Wildan Syukri Niam" },
-  { type: "row", key: "Role", value: "AI Researcher & Web3 Builder" },
-  { type: "row", key: "Affiliation", value: "Telkom University" },
-  { type: "row", key: "Base", value: "Bandung, Indonesia" },
-  { type: "row", key: "Status", value: "Researching / Building / Shipping" },
+  { type: "header", value: "samuel@agentlab" },
+  { type: "row", key: "Subject", value: "Samuel Kristiadi Siburian" },
+  { type: "row", key: "Role", value: "Cybersecurity & Digital Forensics" },
+  { type: "row", key: "Affiliation", value: "President University" },
+  { type: "row", key: "Base", value: "Pekanbaru, Indonesia" },
+  { type: "row", key: "Status", value: "Semester 6 / Analyzing / Hacking" },
   { type: "blank" },
   { type: "section", value: "RESEARCH.NODE" },
-  { type: "row", key: "Primary", value: "AI Agents" },
-  { type: "row", key: "Direction", value: "Trustworthy Autonomous Systems" },
-  { type: "row", key: "Themes", value: "Multi-agent systems / agentic payments" },
+  { type: "row", key: "Primary", value: "Network Security" },
+  { type: "row", key: "Direction", value: "Digital Forensics & Incident Response" },
+  { type: "row", key: "Themes", value: "VLAN Segments / Penetration Testing" },
   { type: "blank" },
   { type: "section", value: "BUILD.LOG" },
-  { type: "row", key: "PayGate", value: "Agentic payments" },
-  { type: "row", key: "Fradium", value: "Web3 trust layer" },
-  { type: "row", key: "NovaAI", value: "Intelligent wallet" },
-  { type: "row", key: "Quorum", value: "Agent coordination" },
+  { type: "row", key: "Firewall", value: "Zone-Based Infrastructure" },
+  { type: "row", key: "Honeypot", value: "Intrusion Detection System" },
+  { type: "row", key: "CryptoLab", value: "RC4 & Stream Cipher Sim" },
+  { type: "row", key: "Analysis", value: "Metadata & Hash Recovery Tools" },
   { type: "blank" },
   { type: "section", value: "GRID.LINKS" },
-  { type: "row", key: "GitHub", value: "@wildanniam" },
-  { type: "footer", value: "signal.locked > AI / WEB3 / AGENTS" }
+  { type: "row", key: "GitHub", value: "@samuelkristiadi17" },
+  { type: "footer", value: "signal.locked > INFRASTRUCTURE / CYBERSECURITY" }
 ];
 
 const palettes = {
@@ -304,7 +305,7 @@ function createHeroSvg(mode, size, portrait) {
   const cursorY = layout.system.y + (profileLines.length - 1) * layout.system.lineHeight - 15;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${layout.width}" height="${layout.height}" viewBox="0 0 ${layout.width} ${layout.height}" role="img" aria-labelledby="title description">
-<title id="title">Wildan Syukri Niam - AI Researcher and Web3 Builder</title>
+<title id="title">Samuel Kristiadi Siburian - Cybersecurity and Digital Forensics Portfolio</title>
 <desc id="description">An animated agent intelligence console with an ASCII portrait, research direction, featured builds, and profile links.</desc>
 <defs>
   <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.backgroundStart}"/><stop offset="1" stop-color="${colors.backgroundEnd}"/></linearGradient>
@@ -315,7 +316,7 @@ function createHeroSvg(mode, size, portrait) {
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="${colors.cyan}" opacity="0.052"/></pattern>
   <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="${colors.blue}" stroke-width="0.65" opacity="0.085"/><circle cx="0" cy="0" r="1.2" fill="${colors.cyan}" opacity="0.13"/></pattern>
   <clipPath id="portrait-clip"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="${clip.height}" rx="${clip.radius}"/></clipPath>
-  <mask id="portrait-reveal"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="0" rx="${clip.radius}" fill="white"><animate attributeName="height" from="0" to="${clip.height}" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
+  <mask id="portrait-reveal"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="0" rx="${clip.radius}" fill="white"><animate attributeName="height" from="0" to="${clip.height}" dur="2.1s" begin="0.12s" fill="freeze"/></mask>
   ${system.clips}
   <style>
     .mono { font-family: 'Courier New', Consolas, monospace; }
@@ -335,7 +336,7 @@ function createHeroSvg(mode, size, portrait) {
 <circle cx="${titlebar.x + 21}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="#EF4444"><animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/></circle>
 <circle cx="${titlebar.x + 39}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>
 <circle cx="${titlebar.x + 57}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.green}"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
-<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">wildan@agentlab ~ % ./profile --live</text>
+<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">samuel@agentlab ~ % ./profile --live</text>
 ${isDesktop ? `<circle cx="${liveX}" cy="${titlebar.y + titlebar.height / 2}" r="4" fill="${colors.red}"><animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/></circle><text x="${liveX + 10}" y="${titlebar.y + titlebar.height / 2 + 4}" class="live-label">SCANNING</text>` : ""}
 <rect x="${visual.x}" y="${visual.y}" width="${visual.width}" height="${visual.height}" rx="${visual.radius}" fill="${colors.panel}" fill-opacity="0.38" stroke="url(#border)" stroke-opacity="0.42"/>
 <rect x="${info.x}" y="${info.y}" width="${info.width}" height="${info.height}" rx="${info.radius}" fill="${colors.panel}" fill-opacity="0.42" stroke="url(#border)" stroke-opacity="0.42"/>
@@ -345,7 +346,7 @@ ${ambientPortrait}
 <g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii" fill="${colors.cyan}" font-family="'Courier New', Consolas, monospace" font-size="${layout.portrait.fontSize}px" letter-spacing="-0.15px">${ascii}</text></g>
 ${system.rows}
 <rect x="${layout.system.x + 2}" y="${cursorY}" width="9" height="${layout.system.fontSize + 2}" fill="${colors.cyan}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.03;0.06;0.32;0.5;0.68;0.84;1" dur="1.4s" begin="3.3s" repeatCount="indefinite"/></rect>
-<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">AI AGENTS / WEB3 TRUST / AUTONOMOUS SYSTEMS</text>
+<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">INFRASTRUCTURE / CYBERSECURITY / DIGITAL FORENSICS</text>
 <rect x="0" y="-70" width="${layout.width}" height="70" fill="url(#scan)" opacity="0.72" style="mix-blend-mode:${colors.scanBlend}"><animateTransform attributeName="transform" type="translate" from="0 -70" to="0 ${layout.height + 70}" dur="4.5s" repeatCount="indefinite"/></rect>
 <rect x="3" y="3" width="${layout.width - 6}" height="${layout.height - 6}" rx="${layout.outerRadius - 2}" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"><animate attributeName="opacity" values="0.5;0.94;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
 </svg>`;
@@ -357,14 +358,16 @@ async function main() {
   const mobilePortrait = await samplePortrait(sourcePath, layouts.mobile.portrait.columns, layouts.mobile.portrait.rows);
 
   await mkdir(outputDirectory, { recursive: true });
+  
+  // Mengubah output nama file menjadi v6 agar melewati proxy cache GitHub
   await Promise.all([
-    writeFile(resolve(outputDirectory, "agent-console-v5-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v5-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v5-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v5-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
+    writeFile(resolve(outputDirectory, "agent-console-v6-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v6-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v6-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v6-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
   ]);
 
-  console.log(`Generated refined hero assets from ${basename(sourcePath)}.`);
+  console.log(`Generated refined hero assets v6 from ${basename(sourcePath)}.`);
 }
 
 main().catch((error) => {

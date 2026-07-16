@@ -4,7 +4,7 @@
     <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v6-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v6-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v6-light.svg">
-    <img src="./assets/hero/github.png" alt="Samuel Kristiadi Siburian - Full Stack and Digital Forensic" width="100%">
+    <img src="./assets/hero/github.png" alt="Samuel" width="100%">
   </picture>
 </p>
 

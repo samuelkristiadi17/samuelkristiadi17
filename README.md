@@ -1,12 +1,13 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v6-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v6-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v6-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v6-light.svg">
-    <img src="./assets/hero/github.png" alt="Samuel" width="100%">
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v5-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v5-light.svg">
+    <img src="./assets/hero/github.png" alt="Samuel Kristiadi Siburian - Full Stack and Digital Forensic" width="100%">
   </picture>
 </p>
+
 
 <p align="center">
   <a href="https://github.com/wildanniam"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-wildanniam-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>

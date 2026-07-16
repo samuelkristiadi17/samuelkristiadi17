@@ -8,7 +8,7 @@ import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
 const scriptDirectory = fileURLToPath(new URL(".", import.meta.url));
-const outputDirectory = resolve(scriptDirectory, "../assets/hero");
+const outputDirectory = resolve(scriptDirectory, "../assets1");
 
 const portraitFilter = [
   "crop=1700:1900:800:1950",

@@ -1,9 +1,9 @@
 <p align="center">
   <picture>
     <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v5-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v5-light.svg">
+    <source media="(max-width: 760px)" srcset="./assets1/agent-console-v5-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets1/agent-console-v5-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets1/agent-console-v5-light.svg">
     <img src="./assets1/github.jpeg" alt="Samuel Kristiadi Siburian - Full Stack and Digital Forensic" width="100%">
   </picture>
 </p>

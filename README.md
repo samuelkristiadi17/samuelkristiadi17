@@ -4,13 +4,12 @@
     <source media="(max-width: 760px)" srcset="./assets/agent-console-v6-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-console-v6-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/agent-console-v6-light.svg">
-    <img src="./assets/github.png" alt="Samuel" width="100%">
+    <img src="./assets/agent-console-v6-dark.svg" alt="Samuel" width="100%">
   </picture>
 </p>
 
-
 <p align="center">
-  <a href="https://github.com/wildanniam"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-wildanniam-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/samuelkristiadi17"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-samuelkristiadi17-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <div align="center">

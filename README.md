@@ -1,12 +1,3 @@
-<p align="center">
-  <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v5-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v5-light.svg">
-    <img src="./assets/github.png" alt="Samuel Kristiadi Siburian - AI Researcher and Web3 Builder" width="100%">
-  </picture>
-</p>
 
 <p align="center">
   <a href="https://github.com/samuelkristiadi17"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-samuelkristiadi17-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>

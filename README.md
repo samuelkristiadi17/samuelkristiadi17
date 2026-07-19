@@ -8,10 +8,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <a href="https://github.com/samuelkristiadi17"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-samuelkristiadi17-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
-
 <div align="center">
     <img width=300 src="./assets/hero/main.gif"/>    
     <br/>

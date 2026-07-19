@@ -30,7 +30,7 @@
   <clipPath id="system-line-20"><rect x="69" y="925.00" width="0" height="21"><animate attributeName="width" from="0" to="574" dur="0.36s" begin="2.78s" fill="freeze"/></rect></clipPath>
   <style>
     .mono { font-family: 'Courier New', Consolas, monospace; }
-    .ascii { font-family: 'Courier New', Consolas, monospace; font-size: 6.6px; letter-spacing: -0.15px; fill: url(#ascii-signal); }
+    .ascii { font-family: 'Courier New', Consolas, monospace; font-size: 6.6px; letter-spacing: -0.15px; }
     .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 12px; letter-spacing: 2px; fill: #38BDF8; opacity: 0.78; }
     .terminal-label { font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 0.5px; fill: #64748B; }
     .live-label { font-family: 'Courier New', Consolas, monospace; font-size: 9px; letter-spacing: 1px; fill: #F87171; }
@@ -72,8 +72,8 @@
   </g>
 </g>
 <g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)">
-  <!-- Ditambahkan text-anchor="middle" dan x="360" agar gambar ASCII otomatis berpusat simetris di tengah -->
-  <text class="ascii" text-anchor="middle" fill="#22D3EE" font-family="'Courier New', Consolas, monospace" font-size="6.6px" letter-spacing="-0.15px">
+  <!-- GRADIENT FILL PINDAH KE SINI AGAR REPOSITORI GITHUB BISA ME-RENDER DENGAN NORMAL -->
+  <text class="ascii" text-anchor="middle" x="360" fill="url(#ascii-signal)" font-family="'Courier New', Consolas, monospace" font-size="6.6px" letter-spacing="-0.15px">
     <tspan x="360" y="132.00" xml:space="preserve">#+**=+*=:--:=++**++**+*##%%###********#######*#*****####%#*#####+###@@@@*#%%%%#++=-+*#%%%#%#=+*:</tspan>
     <tspan x="360" y="137.70" xml:space="preserve">@@%####%#***+*=*==+++++*=++*+=***+#++%*++*++%++--:-#%%@%@@%%%%%@#+**+#@@@@%@@*-=.:++=+%%@@##+---</tspan>
     <tspan x="360" y="143.40" xml:space="preserve">=+*****#%+=:*@++**+#@-+%+:-#-:*+*#@##%##*%=**.      .++*#@@###%@%+==+**%%@%%*+*++*==-==**%%#%+=:</tspan>
@@ -125,8 +125,7 @@
     <tspan x="360" y="409.20" xml:space="preserve">=:====*+=*++*===+==---::.....###***+#+++++++++%=+++****+=+##%##*##* .*=##%%%%*## ....:::::::-::-</tspan>
     <tspan x="360" y="415.85" xml:space="preserve">-----=+=-**++*=+==+--=--:.::-+####*++++++++++=%=++*+******###%#*##* .#*+#%##*### ...::::::::-:.:</tspan>
     <tspan x="360" y="422.50" xml:space="preserve">::-::--==+=+=+==+-=--=---::--=*+#+=*=+++++++++%++++++++**####@***#*:-**+=###*###...:::::--::--:+</tspan>
-    <tspan x="360" y="429.15" xml:space="preserve">-:-::-=-+===-==--====+=-=---=-+*+*##+=++++++*=%=**+=++++**###%#**#*#==*##+####%#....::::-:-:-::=</tspan>
-    <tspan x="360" y="435.80" xml:space="preserve">-:-:::==-==-=-====+*+*=-:--:----=+*%*=-=++++*=%+***+=++++****=#**#++%=+##**%%@%+:....:--:-::-::-</tspan>
+    <tspan x="360" y="428.40" xml:space="preserve">-:-::-=-+===-==--====+=-=---=-+*+*##+=++++++*=%=**+=++++**###%#**#*#==*##+####%#....::::-:-:-::=</tspan>
   </text>
 </g>
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <picture>
+  <picture>     
     <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
     <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v5-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">

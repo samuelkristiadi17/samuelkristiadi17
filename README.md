@@ -7,7 +7,6 @@
     <img src="./assets/github.png" alt="Samuel Kristiadi Siburian - AI Researcher and Web3 Builder" width="100%">
   </picture>
 </p>
-
 <div align="center">
     <img width=300 src="./assets/hero/main.gif"/>    
     <br/>

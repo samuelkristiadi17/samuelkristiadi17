@@ -156,7 +156,7 @@
 <g clip-path="url(#system-line-19)"><text x="528" y="490.5" class="system-row"><tspan fill="#64748B">. </tspan><tspan class="system-key" fill="#22D3EE">GitHub</tspan><tspan fill="#64748B">: ....... </tspan><tspan fill="#E5E7EB">samuelkristiadi17</tspan></text></g>
 <g clip-path="url(#system-line-20)"><text x="528" y="512" class="system-row"><tspan fill="#64748B">. </tspan><tspan class="system-key" fill="#22D3EE">Email</tspan><tspan fill="#64748B">: ........ </tspan><tspan fill="#E5E7EB">samuelsiburian02@gmail.com</tspan></text></g>
 <g><text x="528" y="533.5" class="system-footer" fill="#38BDF8">signal.locked &gt; AI / WEB3 / Cybersecurity</text></g>
-<rect x="513" y="518" width="9" height="16" fill="#22D3EE" opacity="0"> <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.03;0.06;0.32;0.5;0.68;0.84;1" dur="1.4s" begin="3.3s" repeatCount="indefinite"/></rect>
+<rect x="528" y="518" width="9" height="16" fill="#22D3EE" opacity="0"> <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.03;0.06;0.32;0.5;0.68;0.84;1" dur="1.4s" begin="3.3s" repeatCount="indefinite"/></rect>
 <text x="590" y="585" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="#64748B">Full stack / WEB3 TRUST / Cybersecurity</text>
 <rect x="0" y="-70" width="1180" height="70" fill="url(#scan)" opacity="0.72" style="mix-blend-mode:screen"><animateTransform attributeName="transform" type="translate" from="0 -70" to="0 680" dur="4.5s" repeatCount="indefinite"/></rect>
 <rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"><animate attributeName="opacity" values="0.5;0.94;0.5" dur="3.4s" repeatCount="indefinite"/>
